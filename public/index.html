@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automnações INteligentes</title>
+    <title>EA Tech</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <meta name="description" content="Especialista em automação e IA, dedicado a otimizar processos e impulsionar resultados através da tecnologia.">
     <meta name="keywords" content="automação, inteligência artificial, Python, n8n, integração de sistemas, automação de processos">
@@ -13,7 +13,7 @@
     <meta property="og:description" content="Especialista em automação e IA, dedicado a otimizar processos e impulsionar resultados através da tecnologia.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -131,7 +131,9 @@
             <div class="container">
                 <h2>Solicite um Orçamento</h2>
                 <p class="section-subtitle">Vamos conversar sobre como a automação pode transformar seu negócio.</p>
-                <form id="form-orcamento">
+                <form id="form-orcamento" action="https://formsubmit.co/60ec14abcd09e2d5735db04f9d3b313f " method="POST" enctype="multipart/form-data">
+                    <input type="hidden" id="nextUrl" name="_next" value="">
+                    <input type="hidden" name="_captcha" value="false">
                     <div class="form-group">
                         <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
                     </div>
@@ -168,7 +170,10 @@
     <!-- Scripts -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.4.0/tsparticles.bundle.min.js"></script> --> <!-- Removed tsParticles -->
     <script src="js/grid_animation.js"></script> <!-- Script da Nova Animação Grid/Conexões -->
-    <script src="js/script.js"></script> <!-- Script Principal -->
+    <script>
+        // Define a URL de redirecionamento baseada na origem atual
+        document.getElementById("nextUrl").value = window.location.origin + "/public/thanks.html";
+    </script>
 </body>
 </html>
 
