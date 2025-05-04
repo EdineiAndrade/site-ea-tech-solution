@@ -1,19 +1,24 @@
-# Paleta de Cores - Projeto Inovador IA/Automação (Extraída da Imagem)
+# EA Tech Solution - Automações Inteligentes
 
-- Fundo Principal (Preto/Azul Profundo): `#0A0F1A`
-- Fundo Secundário (Azul Escuro): `#10182B`
-- Destaque Principal (Ciano Neon): `#00F0FF`
-- Texto Principal (Claro): `#EAEAEA`
-- Texto Secundário (Cinza Azulado Claro): `#A0A0B4`
-- Brilho/Borda (Ciano Translúcido): `rgba(0, 240, 255, 0.3)`
+Solução especializada em automação de processos com Python, IA e integrações avançadas para transformar operações empresariais.
 
-# Conceito Visual
+## 🚀 Tecnologias Utilizadas
+- **Front-end**: HTML5, CSS3, JavaScript (ES6+)
+- **Back-end**: (Opcional, se aplicável)
 
-- Estética futurista, tecnológica, IA.
-- Fundo escuro predominante.
-- Uso intenso de azul/ciano neon para destaques, textos e elementos de interface.
-- Cards com fundo semi-transparente (usando o `--bg-dark-blue` com alpha talvez) e bordas brilhantes (usando `--accent-cyan` ou `--border-glow`).
-- Animação de fundo com partículas/linhas conectadas (rede neural/circuitos) que reagem ao movimento do mouse.
-- Tipografia moderna e limpa.
-- Layout inovador, possivelmente com elementos sobrepostos ou assimétricos, mas mantendo clareza e usabilidade.
 
+## 📂 Estrutura de Arquivos.
+
+public/
+├── assets/
+│ ├── css/
+│ │ └── style.css # Estilos principais
+│ ├── js/
+│ │ ├── grid_animation.js # Animação de fundo
+│ │ └── script.js # Lógica principal
+│ ├── img/ # Imagens do site
+│ └── icons/ # Ícones SVG
+├── index.html # Página principal
+src/
+└── design/
+└── design_concept.md # Documentação de design
