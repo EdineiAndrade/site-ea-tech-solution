@@ -1,0 +1,50 @@
+# .gitignore para projetos HTML/JS estáticos
+
+### Diretórios ###
+# Dependências do Node
+node_modules/
+# Pastas de IDE
+.vscode/
+.idea/
+# Ambiente local
+dist/
+.temp/
+.cache/
+
+### Arquivos ###
+# Configurações de ambiente
+.env
+.env.local
+*.env.*
+# Logs e relatórios
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+# Cache/artefatos de build
+.sass-cache/
+*.css.map
+*.js.map
+*.tmp
+*.bak
+*.swp
+
+### Extensões específicas ###
+# Backup files
+*.backup
+*.old
+# Arquivos de usuário
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Arquivos de IDE
+*.code-workspace
+
+### Exceções (opcional) ###
+# Mantém pasta vazia necessária
+!.gitkeep

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automnações INteligentes</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="Especialista em automação e IA, dedicado a otimizar processos e impulsionar resultados através da tecnologia.">
+    <meta name="keywords" content="automação, inteligência artificial, Python, n8n, integração de sistemas, automação de processos">
+    <meta name="author" content="EA Tech Solutions">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="EA Tech Solutions - Automação Inteligente">
+    <meta property="og:description" content="Especialista em automação e IA, dedicado a otimizar processos e impulsionar resultados através da tecnologia.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- Canvas para Animação de Fundo -->
+    <canvas id="neural-canvas"></canvas>
+
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">EA Tech Solution</a>
+            <button class="menu-toggle" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#orcamento" class="cta-nav-button">Orçamento</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container hero-content">
+                <h1>Automações que <strong>Transformam seu Negócio</strong></h1>
+                <p>Somos especialistas em automações inteligentes, com foco em eficiência operacional. Soluções personalizadas para sua empresa, unindo o melhor da tecnologia com inteligência artificial.</p>
+                <a href="#servicos" class="cta-button">Descubra as Soluções</a>
+            </div>
+        </section>
+
+        <section id="servicos">
+            <div class="container">
+                <h2>Nossas Soluções de Automação</h2>
+                <div class="servicos-grid">
+                    <!-- Card Transparente 1 -->
+                    <div class="servico-card">
+                        <div class="card-glow"></div> <!-- Elemento para brilho -->
+                        <i class="fab fa-python fa-3x"></i>
+                        <h3>Automação com Python</h3>
+                        <p>Web Scraping e Automação Web: Extração e processamento inteligente de dados.
+                            Automação de Desktop: Criação de robôs para tarefas repetitivas em sistemas locais.                 Processamento e Análise de Dados: Transformação, limpeza e visualização de dados com bibliotecas Python.</p>
+                    </div>
+                    <!-- Card Transparente 2 -->
+                    <div class="servico-card">
+                         <div class="card-glow"></div>
+                        <i class="fas fa-cogs fa-3x"></i>
+                        <h3>Workflows com make e n8n</h3>
+                        <p>Integração com diversos serviços como API Google(gmail, drive, sheets, docs, calendário), CRM e Banco de dados, para fluxos eficientes.</p>
+                    </div>
+                     <!-- Card Transparente 3 -->
+                    <div class="servico-card">
+                         <div class="card-glow"></div>
+                        <i class="fab fa-whatsapp fa-3x"></i>
+                        <h3>Bots de Atendimento & Social Media</h3>
+                        <p>Implementação de assistentes inteligentes:
+                            Atendimento Automatizado 24/7 (WhatsApp e Telegram),
+                            Agendamento Inteligente (integração com Google Calendar e CRMs),
+                            Armazenamento em bancos de dados. Faz gerenciamento de redes sociais, com respostas e postagens automáticas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <div class="container">
+                <h2>Projetos em Destaque</h2>
+                 <div class="projetos-grid">
+                    <!-- Projeto 1 -->
+                    <div class="projeto-card">
+                         <div class="card-glow"></div>
+                        <img src="./assets/img/projeto-1.png" alt="Projeto 1">
+                        <div class="projeto-info">
+                            <h3>Web Scraping</h3>
+                            <p>Este projeto realiza web scraping em um site utilizando Playwright para automação da navegação e extração de dados. Os dados coletados são processados com Pandas e armazenados automaticamente no Google Sheets através da integração com gspread e Google-Auth .</p>
+                        </div>
+                    </div>
+                     <!-- Projeto 2 -->
+                     <div class="projeto-card">
+                          <div class="card-glow"></div>
+                        <img src="./assets/img/projeto-2.jpg" alt="Projeto 2">
+                        <div class="projeto-info">
+                            <h3>Postagens automaticas em redes sociais</h3>
+                            <p>Gerenciar múltiplas redes sociais (LinkedIn, Instagram, Twitter, Facebook). Automatizando o processo de criação de conteúdos, realizando postagem e respostas com inteligência artificial.</p>
+                        </div>
+                    </div>
+                    <!-- Projeto 3 -->
+                     <div class="projeto-card">
+                          <div class="card-glow"></div>
+                        <img src="./assets/img/projeto3.png" alt="Projeto 3">
+                        <div class="projeto-info">
+                            <h3>Secretária Eletrônica 24/7</h3>
+                            <p>Agendamento automático: Pacientes marcam consultas a qualquer hora.
+                                Lembretes inteligentes: Confirmações por WhatsApp ou e-mail, reduzindo faltas.</p>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </section>
+
+        <section id="sobre-mim">
+            <div class="container sobre-mim-layout">
+                 <div class="sobre-mim-texto">
+                    <h2>Sobre Mim</h2>
+                    <p>Especialista em automação e IA, dedicado a otimizar processos e impulsionar resultados através da tecnologia.</p>
+                    <p>Com vasta experiência em automação de processos utilizando Python, Make, n8n e integrações com APIs e bancos de dados. Formado em Análise e Desenvolvimento de Sistemas, com especialização em automação de tarefas com Python. Dedico-me a transformar operações complexas em soluções eficientes, impulsionando produtividade e resultados através da tecnologia.                        
+                        </p>
+                    <span>"Automatizar é transformar desafios em oportunidades."</span> 
+                 </div>
+                 <div class="sobre-mim-img">
+                    <img src="https://avatars.githubusercontent.com/u/63890230?s=96&v=4" alt="Sua Foto">
+                 </div>
+            </div>
+        </section>
+
+        <section id="orcamento">
+            <div class="container">
+                <h2>Solicite um Orçamento</h2>
+                <p class="section-subtitle">Vamos conversar sobre como a automação pode transformar seu negócio.</p>
+                <form id="form-orcamento">
+                    <div class="form-group">
+                        <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Seu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="telefone" name="telefone" placeholder="Seu telefone" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Descreva sua necessidade" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Enviar Solicitação</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 EA Tech Solutions. Automação Inteligente.</p>
+            <!-- Links redes sociais opcionais -->
+        </div>
+    </footer>
+
+    <a href="https://wa.me/77999272367?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20automação.%0AVim%20do%20site." 
+   class="whatsapp-button" 
+   target="_blank" 
+   rel="noopener noreferrer" 
+   title="Fale Conosco pelo WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.4.0/tsparticles.bundle.min.js"></script> --> <!-- Removed tsParticles -->
+    <script src="../src/js/grid_animation.js"></script> <!-- Script da Nova Animação Grid/Conexões -->
+    <script src="../src/js/script.js"></script> <!-- Script Principal -->
+</body>
+</html>
+
