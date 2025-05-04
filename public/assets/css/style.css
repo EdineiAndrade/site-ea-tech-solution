@@ -53,12 +53,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-primary);
     color: var(--light-text);
     margin-bottom: 1rem;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 h1 {
     font-size: clamp(2.5rem, 5vw, 4rem);
-    font-weight: 600;
+    font-weight: 400;
     text-shadow: 0 0 15px rgba(226, 239, 240, 0.3);
 }
 
@@ -655,7 +655,11 @@ footer p {
 
     #hero { min-height: 80vh; }
     #hero p { font-size: 1.1rem; }
-    #form-orcamento { padding: 2rem; }
+    #form-orcamento { padding: 1rem; }
+    h2{
+        margin-bottom: 2rem;
+        text-align: center;
+    }
 }
 
 @media (max-width: 480px) {
