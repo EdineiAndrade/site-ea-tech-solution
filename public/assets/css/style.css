@@ -438,12 +438,18 @@ header nav ul li a:hover::after {
     margin-bottom: 1rem;
 }
 
+.sobre-mim-texto strong {
+    color: #32e022;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
 .sobre-mim-texto span {
     color: var(--medium-text);
     font-size: 1.1rem;
     margin-bottom: 1rem;
     font-style: italic;
-    color: #555; /* Opcional: cor mais suave para a citação */
+    color: #eedddd; /* Opcional: cor mais suave para a citação */
     display: block; /* Faz ocupar linha própria */
     margin-top: 15px; /* Espaçamento */
 }
